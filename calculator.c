@@ -21,6 +21,12 @@ void calcAddition() {
 // 5. Exponentiation
 
 // 6. Sine
+void calcsubtraction(){
+	printf("\nEnter the operands:");
+	int x,y;
+	scanf("%d %d", &x, &y);
+	printf("The difference is %d",x-y);
+}
 void calcSine() {
     printf("\nEnter the angle in degrees: ");
     int angle;
