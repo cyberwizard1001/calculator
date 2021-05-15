@@ -8,7 +8,7 @@ void calcAddition() {
     scanf("%d%d", &a, &b);
     int result = a + b;
     printf("The sum is %d\n", result);
-}
+}//hello idiot
 
 // Fill the rest of the functionality here!
 // 2. Subtraction
