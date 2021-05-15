@@ -21,7 +21,7 @@ void calcAddition() {
 // 5. Exponentiation
 
 // 6. Sine
-void calcsubtraction(){
+void calcsubtraction(){ //Did by Guna
 	printf("\nEnter the operands:");
 	int x,y;
 	scanf("%d %d", &x, &y);
