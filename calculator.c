@@ -18,6 +18,15 @@ void calcAddition() {
 // 2. Subtraction
 // 3. Multiplication
 // 4. Division
+// Dharaneish V C – CB.EN.U4CSE20315
+void calcDivision()
+ {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a / b;
+    printf("The quotient is %d\n", result);
+
 // 5. Exponentiation
 
 // 6. Sine
