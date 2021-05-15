@@ -22,7 +22,7 @@ void calcdivision() {
     int a, b;
     scanf("%d %d", &a, &b);
     int result = a/b;
-    printf("%d / %d = %d\n",a,b result);
+    printf("%d / %d = %d\n",a,b,result);
 
 } 
 // 5. Exponentiation
