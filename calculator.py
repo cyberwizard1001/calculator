@@ -41,6 +41,18 @@ if choice == 6:
     answer = math.sin(math.radians(angle))
 
     print("The sine value is", answer)
+    
+if choice ==10: #Sriram
+    try:
+        print("Enter value for ceiling function:")
+        a=float(input())
+        print("The resultant value is",math.ceil(a))
+    except:
+        print("Invalid entry!")
+        
+        
+    
+        
 
 # Fill the rest of the functionality here!
 # 7. Cosine
