@@ -26,6 +26,7 @@ void calcDivision()
     scanf("%d%d", &a, &b);
     int result = a / b;
     printf("The quotient is %d\n", result);
+}
 
 // 5. Exponentiation
 
