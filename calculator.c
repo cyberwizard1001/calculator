@@ -11,8 +11,6 @@ void calcAddition() {
 
 } 
 // AGAIN?!?!
-
-}
 //hello idiot
 
 
