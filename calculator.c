@@ -9,7 +9,7 @@ void calcAddition() {
     int result = a + b;
     printf("The sum is %d\n", result);
 
-} 
+}
 // AGAIN?!?!
 //hello idiot
 
@@ -37,7 +37,21 @@ void calcSine() {
 // 7. Cosine
 // 8. Tangent
 // 9. Floor
-// 10. Ceiling
+
+// 10. Ceiling by Hari Varsha V
+void Ceiling() {
+    printf("Enter the Length of the Room : \n");
+    float length;
+    scanf("%f", &length);
+
+    printf("Enter the Breadth of the Room : \n");
+    float breadth;
+    scanf("%f", &breadth);
+
+    // Calculating the area of the Ceiling
+    double area = length * breadth;
+    printf("The Area of the Ceiling is %f \n", area);
+}
 // 11. Round
 // 12. Absolute value
 
@@ -80,7 +94,12 @@ int main() {
         case 7:
         case 8:
         case 9:
+
+        // 10. Ceiling by Hari Varsha V
         case 10:
+               Ceiling();
+               break;
+
         case 11:
         case 12:
         default:
