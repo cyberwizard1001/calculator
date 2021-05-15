@@ -37,6 +37,13 @@ void calcSine() {
 // 7. Cosine
 // 8. Tangent
 // 9. Floor
+void calcFloor() {
+    float num;
+    int result;
+    scanf("%f", &num);
+    result=floor(num);
+    printf("Floor integer of %.2f = %d", num,result);
+}
 // 10. Ceiling
 // 11. Round
 // 12. Absolute value
@@ -79,7 +86,7 @@ int main() {
 
         case 7:
         case 8:
-        case 9:
+        case 9: calcFloor();
         case 10:
         case 11:
         case 12:
