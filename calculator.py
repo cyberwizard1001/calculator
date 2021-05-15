@@ -1,5 +1,8 @@
 import math
 
+def round(number):
+    print("Round Function")
+
 print(
     """Welcome to the Cool Calculator program!
 
