@@ -34,7 +34,19 @@ void calcSine() {
 }
 
 // Fill the rest of the functionality here!
-// 7. Cosine
+// 7. Cosine- Sashank
+void calcCosine() {
+    printf("\nEnter the angle in degrees: ");
+    int angle;
+    scanf("%d", &angle);
+
+    // Convert degrees to radians
+    double radians = angle / 180.0 * 3.14;
+    double answer = sin(radians);
+
+    printf("The cosine value is %f", answer);
+}
+
 // 8. Tangent
 // 9. Floor
 // 10. Ceiling
@@ -78,6 +90,8 @@ int main() {
             break;
 
         case 7:
+            calcCosine();
+            break;
         case 8:
         case 9:
         case 10:
