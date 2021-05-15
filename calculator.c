@@ -34,7 +34,17 @@ void calcSine() {
 }
 
 // Fill the rest of the functionality here!
-// 7. Cosine
+// 7. Cosine(sai mrudhun)
+void calccosine() {
+    int angle;
+    scanf("%d",&angle);
+
+    // converting degrees into radians
+    double radians=angle / 180.0 * 3.14;
+    double answer=cos(radians);
+
+    printf("the cosine value is %f", answer);
+}
 // 8. Tangent
 // 9. Floor
 // 10. Ceiling
