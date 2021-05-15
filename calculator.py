@@ -1,6 +1,6 @@
 import math
 
-def round(number):
+def roundFunc(number):
     return round(number)
 
 print(
@@ -51,4 +51,7 @@ if choice == 6:
 # 9. Floor
 # 10. Ceiling
 # 11. Round
+if choice == 11:
+    number = input()
+    print(roundFunc(number))
 # 12. Absolute value
